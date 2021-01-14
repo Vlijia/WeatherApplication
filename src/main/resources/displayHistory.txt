@@ -1,0 +1,2 @@
+Razvilka: snow, Thursday 03:43 PM, Temperature = -12 C, Pressure = 1004 hPa, Humidity = 85%, Wind = 7 km/h
+Madrid: clear sky, Thursday 03:43 PM, Temperature = 3 C, Pressure = 1026 hPa, Humidity = 45%, Wind = 0 km/h
