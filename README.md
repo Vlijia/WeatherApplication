@@ -2,6 +2,9 @@
 
 > Aplicatie de vizualizare a datelor meteorologice principale ale unui Oras
 
+## Interfata aplicatie
+![](https://github.com/Vlijia/WeatherApplication/tree/main/src/main/resources/icons/weatherAppImg.JPG)
+
 ## Informatii generale
 
 Aplicatia foloseste api-ul meteorologic pus la dispozitie de siteul https://openweathermap.org/ pentru
@@ -14,10 +17,7 @@ Aplicatia permite vizualizarea urmatoarelor date meteorologice despre orasul ale
 - umiditatea din aer in procente
 - viteza vantului in km/h
 - temperatura in grade celsius
-- o imagine reprezentativa (imaginile sunt luate de pe siteul https://openweathermap.org)
-
-## Interfata aplicatie
-![screenshot](https://github.com/Vlijia/WeatherApplication/tree/main/src/main/resources/icons/cloudy.png)
+- o imagine reprezentativa (imaginile sunt luate de pe siteul https://openweathermap.org pe baza raspunsului json)
 
 ## Fisiere importante
 
