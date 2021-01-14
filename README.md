@@ -3,7 +3,7 @@
 > Aplicatie de vizualizare a datelor meteorologice principale ale unui Oras
 
 ## Interfata aplicatie
-![](https://github.com/Vlijia/WeatherApplication/tree/main/src/main/resources/icons/weatherAppImg.JPG)
+![screenshot interfata](https://github.com/Vlijia/WeatherApplication/tree/main/src/main/resources/icons/weatherAppImg.JPG)
 
 ## Informatii generale
 
