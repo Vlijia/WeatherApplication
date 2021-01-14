@@ -2,12 +2,6 @@
 
 > Aplicatie de vizualizare a datelor meteorologice principale ale unui Oras
 
-## Continut
-
-- listele cu tari si orase sunt incarcate pe baza fisierului src/main/resources/input.txt
-- aplicatia salveaza un istoric al datelor afisate in fisierul src/main/resources/displayHistory.txt
-- diagramele UML se regasesc in folderul /src/main/resources/diagrams
-
 ## Informatii generale
 
 Aplicatia foloseste api-ul meteorologic pus la dispozitie de siteul https://openweathermap.org/ pentru
@@ -23,4 +17,10 @@ Aplicatia permite vizualizarea urmatoarelor date meteorologice despre orasul ale
 - o imagine reprezentativa (imaginile sunt luate de pe siteul https://openweathermap.org)
 
 ## Interfata aplicatie
-![screenshot](https://github.com/Vlijia/WeatherApplication/tree/main/src/main/resources/icons/weatherAppImg.JPG)
+![screenshot](https://github.com/Vlijia/WeatherApplication/tree/main/src/main/resources/icons/cloudy.png)
+
+## Fisiere importante
+
+- listele cu tari si orase sunt incarcate pe baza fisierului src/main/resources/input.txt
+- aplicatia salveaza un istoric al datelor afisate in fisierul src/main/resources/displayHistory.txt
+- diagramele UML se regasesc in folderul /src/main/resources/diagrams
