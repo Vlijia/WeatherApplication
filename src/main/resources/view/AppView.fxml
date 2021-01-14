@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="330.0" prefWidth="400.0" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ComboBox fx:id="contryComboBox" layoutX="30.0" layoutY="73.0" prefWidth="150.0" visibleRowCount="5" AnchorPane.leftAnchor="30.0" />
+      <ComboBox fx:id="cityComboBox" layoutX="220.0" layoutY="73.0" prefWidth="150.0" AnchorPane.rightAnchor="30.0" />
+      <Pane layoutY="133.0" prefHeight="210.0" prefWidth="400.0">
+         <children>
+            <ImageView fx:id="imageView" fitHeight="112.0" fitWidth="100.0" layoutX="227.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/cloudy.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="cityNameLabel" layoutX="14.0" layoutY="26.0" text="City" textFill="#cccccc">
+               <font>
+                  <Font name="Calibri Light" size="26.0" />
+               </font>
+            </Label>
+            <Label fx:id="timeLabel" layoutX="14.0" layoutY="57.0" text="Thuesday 8:00 PM" textFill="#cccccc">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="descriptionLabel" layoutX="14.0" layoutY="77.0" text="Cloudy" textFill="#cccccc">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="tempLabel" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="155.0" layoutY="113.0" maxHeight="70.0" maxWidth="134.0" minHeight="70.0" minWidth="88.0" prefHeight="70.0" prefWidth="134.0" text="25" textAlignment="RIGHT" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Arial" size="72.0" />
+               </font>
+            </Label>
+            <Label layoutX="289.0" layoutY="107.0" text="o" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="304.0" layoutY="120.0" prefHeight="26.0" prefWidth="23.0" text="C" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="humidityLabel" layoutX="90.0" layoutY="128.0" text="49%" textFill="#cccccc">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="windLabel" layoutX="62.0" layoutY="149.0" text="49 km/h" textFill="#cccccc">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="110.0" text="Pressure:" textFill="#cccccc">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="128.0" text="Humidity:" textFill="#cccccc">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="149.0" text="Wind:" textFill="#cccccc">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="pressureLabel" layoutX="90.0" layoutY="110.0" text="49%" textFill="#cccccc">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+         </children>
+         <styleClass>
+            <String fx:value="bmp-pane" />
+            <String fx:value="btm-pane" />
+         </styleClass></Pane>
+      <Label layoutX="30.0" layoutY="46.0" text="Country:" />
+      <Label layoutX="220.0" layoutY="46.0" text="City:" />
+   </children>
+   <styleClass>
+      <String fx:value="anchorpane" />
+      <String fx:value="anchorpane" />
+   </styleClass>
+</AnchorPane>
