@@ -12,6 +12,7 @@ import ro.mta.se.lab.model.Country;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.net.URL;
 import java.util.Scanner;
 
 public class Main extends Application {
@@ -69,9 +70,8 @@ public class Main extends Application {
     public void start(Stage primaryStage) {
         initializeCountries();
         try {
-
             FXMLLoader loader = new FXMLLoader();
-            //Parent root = FXMLLoader.load(this.getClass().getResource("/view/AppView.fxml"));
+
             loader.setLocation(this.getClass().getResource("/view/AppView.fxml"));
             loader.setController(new AppController(countryList));
             primaryStage.setScene(new Scene(loader.load()));
